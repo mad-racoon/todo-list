@@ -1,3 +1,3 @@
-export default function Button() {
-  return <button>Add Task</button>;
+export default function Button({ children, ...props }) {
+  return <button {...props}>{children}</button>;
 }
