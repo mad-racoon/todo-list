@@ -21,6 +21,7 @@ export default function Form() {
           <option value="red">red</option>
         </select>
       </p>
+      <button>Submit</button>
     </form>
   );
 }
