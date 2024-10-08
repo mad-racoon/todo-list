@@ -7,10 +7,10 @@ function generateRandomQuotes(quotes) {
   return quotes[index];
 }
 
+const randomQuote = generateRandomQuotes(quotes);
+
 export default function Header() {
   const date = new Date().toLocaleDateString("de-DE");
-
-  const randomQuote = generateRandomQuotes(quotes);
 
   return (
     <header>
